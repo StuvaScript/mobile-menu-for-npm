@@ -20,7 +20,7 @@
 
 - Your package needs to have 'export' or 'export default' on the functions for them to be imported by another project and utilized. See your other packages for examples. (normally you would use 'module.exports' for this but you're utilizing ES6 modules and not Common.js right now.)
 
-- To test your package **UPDATE THIS TO HAVE NPM LINK AND ALL THAT**
+- To test your package **UPDATE THIS TO HAVE NPM LINK AND ALL THAT** Because your package folder and project folder are now linked, if you make changes to the package files it will automatically update it in both the project folder and the original package folder.
 
 - To publish your SCOPED package PUBLICLY, type 'npm publish --access public' to publish it to the npm registry. Each time you make an update and publish again, make sure you update the semantic versioning.
 
