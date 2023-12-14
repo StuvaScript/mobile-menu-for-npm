@@ -75,5 +75,6 @@ function createUpperMenuWrap() {
 function createMobileWrap() {
   const div = document.createElement("div");
   div.classList.add("mobile-wrap");
+  div.style.zIndex = '1';
   body.prepend(div);
 }

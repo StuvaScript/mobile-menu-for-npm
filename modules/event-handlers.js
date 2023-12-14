@@ -1,5 +1,8 @@
 export { openMobileMenu, closeMobileMenu, outerNav, lookForOuterNavClass };
 
+//! **`` This "body" import is needed even though it's saying it's not being read.
+import { body } from "./dom-manipulation";
+
 import {
   initMobileMenu,
   innerNav,
@@ -61,4 +64,4 @@ function lookForOuterNavClass() {
     outerNav = document.querySelector(".outer-nav-for-mobile-menu");
     watchWindowSize();
   }
-}
+};
