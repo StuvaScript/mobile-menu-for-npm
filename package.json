@@ -1,6 +1,6 @@
 {
   "name": "@stuvascript/mobile-menu",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "A nifty mobile menu for all your mobile projects!",
   "main": "index.js",
   "scripts": {
