@@ -24,13 +24,21 @@ npm i @stuvascript/mobile-menu
 
 ## To Use
 
+### JavaScript
+
+You can use the `import` syntax to call the package. Here is what it would look like:
+
+```Javascript
+import mobile-menu from '@stuvascript/mobile-menu';
+```
+
 ### HTML
 
 In your HTML file, you need:
 
-1. An element to have the class of "outer-nav-for-mobile-menu". This is what the package looks for to actually work. Semantically this should be a <nav> element but really it can be anything.
+1. An element to have the class of "outer-nav-for-mobile-menu". This is what the package looks for to actually work. Semantically this should be a `<nav>` element but really it can be anything.
 
-2. That element needs to have <li> children. This is what the package will read and copy to the mobile menu for navigation.
+2. That element needs to have `<li>` children. This is what the package will read and copy to the mobile menu for navigation.
 
 ### Notes
 
@@ -69,7 +77,7 @@ Here's an example of what your CSS could look like if your element that has the 
 }
 ```
 
-This "media query" and "position: absolute" is needed so that the parent element will disappear from the document flow and make the rest of the page look better.
+This "media query" and "position: absolute" are needed so that the parent element will disappear from the document flow and make the rest of the page look better.
 
 ## Built With
 
